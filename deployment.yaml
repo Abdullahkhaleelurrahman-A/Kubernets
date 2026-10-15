@@ -15,6 +15,6 @@ spec:
       containers:
         - name: website
           image: vit-course-registration:latest
-          imagePullPolicy: IfNotPresent
+          imagePullPolicy: Never
           ports:
             - containerPort: 80
