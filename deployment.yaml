@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: website
-          image: vit-course-registration:latest
-          imagePullPolicy: Never
+          image: khaleelur/vit-course-registration:latest
+          imagePullPolicy: Always
           ports:
             - containerPort: 80
